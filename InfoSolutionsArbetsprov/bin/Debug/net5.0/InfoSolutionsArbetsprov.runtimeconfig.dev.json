@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\axelo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\axelo\\.nuget\\packages"
+    ]
+  }
+}
