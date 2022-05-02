@@ -18,7 +18,7 @@ namespace InfoSolutionsArbetsprov
 
             var getNextNumberResponse = await client.GetNextNumberAsync(numberSeriesCode);
 
-            var result = getNextNumberResponse.Body.GetNextNumberResult;
+            string result = getNextNumberResponse.Body.GetNextNumberResult;
             if (!int.TryParse(result, out int number)) return;
 
             using FileStream fileStream = new(fileName, FileMode.Append, FileAccess.Write);
